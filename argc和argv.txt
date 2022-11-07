@@ -1,0 +1,7 @@
+argc是argument count的缩写，表示传入main函数的参数个数；
+argv是argument vector的缩写，表示传入main函数的参数序列或指针；
+第一个参数argv[0]一定是参数的名称，且包含了程序所在的完整路径。
+准确来说，传入main函数的参数个数应当是argc-1个，并以空格分隔参数，其长度为argc；
+数组下表从0开始，argv[argc]=NULL。
+1、argv[0] 指向程序运行时的全路径名
+2、argv[1] 指向程序在命令中执行程序名后的第一个字符串
